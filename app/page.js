@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Header } from ".//components/Header";
 import { firestore } from "@/firebase";
 import {
   Box,
@@ -99,7 +98,6 @@ export default function Home() {
       alignItems="center"
       gap={2}
     >
-      <Header />
       <Modal open={open} onClose={handleClose}>
         <Box
           position="absolute"
